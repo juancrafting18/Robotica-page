@@ -109,7 +109,7 @@ header
 .main-info-btn:hover 
 {
     border-radius: 15px;
-    transition-duration: 1s;
+    transition-duration: 400ms;
 }
 .recently-data 
 {
@@ -140,21 +140,25 @@ header
 {
     margin-top: 2px;
     transition-duration: 400ms;
+    margin-bottom: 2px;
 }
 .data2:hover 
 {
     margin-top: 2px;
     transition-duration: 400ms;
+    margin-bottom: 2px;
 }
 .data3:hover 
 {
     margin-top: 2px;
     transition-duration: 400ms;
+    margin-bottom: 2px;
 }
 .data4:hover 
 {
     margin-top: 2px;
     transition-duration: 400ms;
+    margin-bottom: 2px;
 }
 .data-container-image img 
 {
@@ -171,4 +175,44 @@ header
     text-decoration: none;
     color: var(--color1);
     cursor: pointer;
+}
+.show-all-articles
+{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 8px;
+}
+.show-all-articles a 
+{
+    color: var(--color1);
+    text-decoration: none;
+}
+.show-all-articles a:hover 
+{
+    font-size: 2.8rem;
+    color: var(--color2);
+    transition-duration: 400ms;
+}
+footer 
+{
+    width: 100%;
+    border-top: 1px solid rgb(17, 66, 0);
+}
+.footer-ul 
+{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 15px;
+}
+.footer-ul a  
+{
+    color: black;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+.footer-ul a:hover 
+{
+    font-size: 1.3rem;
+    transition-duration: 500ms;
 }
