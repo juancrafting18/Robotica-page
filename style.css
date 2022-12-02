@@ -1,0 +1,129 @@
+* 
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root 
+{
+    --base-color: rgb(17,66,0);
+    --color1: rgb(48,194,0);
+    --color2: rgb(53,143,22);
+    --color3: rgb(92,194,58);
+    --color4: rgba(17, 66, 0);
+    --font: 'Ubuntu', sans-serif;
+}
+html, body
+{
+    height: 100vh;
+    width: 100vw;
+    font-size: 62.5%;
+    font-family: 'Ubuntu', sans-serif;
+    overflow-x: hidden;
+}
+header
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(17, 66, 0);
+}
+.fa-bars 
+{
+    display: none;
+}
+.desktop-menu 
+{
+    display: flex;
+    padding: 0px 10px;
+}
+.desktop-menu-options 
+{
+    display: flex;
+}
+.desktop-menu-options li 
+{
+    list-style: none;
+    padding: 10px;
+    margin: 0px 5px;
+}
+.desktop-menu-options li:hover 
+{
+    background-color: rgba(52, 143, 22, 0.418);
+    border-radius: 10px;
+    transition-duration: 400ms;
+}
+.desktop-menu-options a 
+{
+    color: black;
+    text-decoration: none;
+    font-size: 2rem;
+}
+.main-info 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.main-info-container 
+{
+    width: 90%;
+    height: 302px;
+    background-image: url(./img/main-img-principal.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-info-box 
+{
+    width: 100%;
+    background: rgba(17, 66, 0, 0.685);
+    padding: 10px 0px;
+    font-size: 3rem;
+    color: white;
+}
+.main-info-box:hover
+{
+    background: rgba(17, 66, 0, 0.842);
+    transition-duration: 1s;
+}
+.margin-text-info-box
+{
+    margin: 10px;
+}
+.main-info-btn
+{
+    background-color: var(--color1);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bolder;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.main-info-btn:hover 
+{
+    border-radius: 15px;
+    transition-duration: 1s;
+}
+.recently-data 
+{
+    margin: 0px 36px;
+    margin-top: 20px;
+}
+.recently-data-title-container span 
+{
+    color: black;
+    font-size: 3rem;
+}
+.grid-square-container 
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
