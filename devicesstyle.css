@@ -19,6 +19,10 @@
     {
         font-size: 1rem;
     }
+    footer 
+    {
+        display: none;
+    }
 }
 @media (max-width: 850px)
 {
