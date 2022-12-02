@@ -113,8 +113,7 @@ header
 }
 .recently-data 
 {
-    margin: 0px 36px;
-    margin-top: 20px;
+    margin: 20px 36px;
 }
 .recently-data-title-container span 
 {
@@ -125,5 +124,51 @@ header
 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
 }
-
+.new-data 
+{
+    border: 1px solid gray;
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.data1:hover 
+{
+    margin-top: 2px;
+    transition-duration: 400ms;
+}
+.data2:hover 
+{
+    margin-top: 2px;
+    transition-duration: 400ms;
+}
+.data3:hover 
+{
+    margin-top: 2px;
+    transition-duration: 400ms;
+}
+.data4:hover 
+{
+    margin-top: 2px;
+    transition-duration: 400ms;
+}
+.data-container-image img 
+{
+    width: 100%;
+}
+.new-data span 
+{
+    font-size: 1.8rem;
+}
+.new-data a 
+{
+    font-size: 1.2rem;
+    align-self: flex-end;
+    text-decoration: none;
+    color: var(--color1);
+    cursor: pointer;
+}
