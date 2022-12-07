@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrate o inicia sesión</title>
+    <link rel="icon" href="./img/shortcut-iconedited16x16.png">
+    <script src="https://kit.fontawesome.com/ccddd8e514.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&family=Ubuntu:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./stylelogpage.css"><link rel="stylesheet" href="./devicesstyle.css">
+</head>
+<body class="body-logpage">
+    <main class="log-container">
+        <div class="title-page-log">
+            <a href="./index.html">
+                <picture class="mobile-menu-imgs">
+                    <source srcset="./img/desktop-logo.png" media="(min-width: 600px)">
+                    <img src="./img/mobile-logo.png" alt="logo de Westen" class="mobile-img-logo">
+                </picture><br>
+            </a>
+            <span class="id-title-page-log">INICIA SESIÓN O<br> REGISTRATE</span>
+        </div>
+        <div class="form-container">
+            <form action="">
+                <div class="email-input-container">
+                    <label for="user-input">EMAIL</label><br>
+                    <input type="email" id="user-input" placeholder="example@gmail.com" required><br>
+                </div>
+                <div class="password-input-container">
+                    <label for="password-input">PASSWORD</label><br>
+                    <input type="password" id="password-input" required><br>
+                </div><br>
+                <div class="terms-check">
+                    <input type="checkbox" id="check-terms-input-user-value" required><label for="check-terms-input-user-value">Aceptas los <a href="./logpage/termsofpageindex.html">terminos y condiciones</a> de nuestra pagina</label>
+                </div>
+                <div class="btn-form-container">
+                    <button class="btn-send-form" type="submit">INGRESAR</button>
+                </div>
+            </form>
+            <div class="alternative-options-form">
+                <div class="or-register">
+                    <span><a href="">No tienes cuenta? Registrate</a></span>
+                </div>
+                <div class="forgot-password">
+                    <span><a href="">¿Olvidaste tu contraseña?</a></span>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./main.js"></script>
+</body>
+</html>
