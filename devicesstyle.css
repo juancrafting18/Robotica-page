@@ -23,10 +23,73 @@
     {
         display: none;
     }
+    .body-logpage 
+    {
+        background-image: url(./img/background-logpage.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 1700px;
+        justify-content: center;
+    }
+    .log-container 
+    {
+        width: 76%;
+    }
+    .title-page-log 
+    {
+        font-size: 2rem;
+    }
+    .form-container div 
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-right: 10px;
+    }
+    .form-container label 
+    {
+        font-size: 1.5rem;
+    }
+    .form-container input
+    {
+        border: 0px;
+        border-bottom: 1px solid var(--color2);
+        outline: none;
+    }
+    .form-container input:active
+    {
+        border-bottom: 2px solid var(--color2);
+    }
+    .password-input-container 
+    {
+        margin-top: 20px;
+    }
+    .or-register 
+    {
+        margin-top: 20px;
+        font-size: 1.4rem;
+        text-align: center;
+    }
+    .forgot-password
+    {
+        margin-top: 10px;
+        font-size: 1.4rem;
+        text-align: center;
+    }
+    .terms-check input 
+    {
+        width: 100%;
+    }
 }
 @media (max-width: 850px)
 {
     .fa-bars 
+    {
+        display: flex;
+        font-size: 40px;
+        margin-right: 20px;
+    }
+    .fa-xmark
     {
         display: flex;
         font-size: 40px;
@@ -68,6 +131,17 @@
     {
         color: white;
         font-size: 1.8rem;
+    }
+}
+@media (min-width:850px)
+{
+    .mobile-menu-dropdown 
+    {
+        display: none;
+    }
+    .mobile-menu-icon
+    {
+        display: none;
     }
 }
 @media (min-width: 1070px)
